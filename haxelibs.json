@@ -13,15 +13,11 @@
       "type": "haxelib"
     },
     {
-      "name": "flixel-addons",
+      "name": "hscript",
       "type": "haxelib"
     },
     {
-      "name": "flixel-ui",
-      "type": "haxelib"
-    },
-    {
-      "name": "flixel-tools",
+      "name": "hxcpp-debug-server",
       "type": "haxelib"
     },
     {

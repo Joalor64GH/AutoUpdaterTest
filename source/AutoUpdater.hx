@@ -1,4 +1,4 @@
-package backend;
+package;
 
 import haxe.io.Bytes;
 import haxe.zip.Reader;

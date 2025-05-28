@@ -13,8 +13,7 @@ class UpdateState extends FlxState {
 			What\'s New:\n'
 			+ daJson.description
 			+ '\nPress ENTER to update the game. Otherwise, press ESCAPE to proceed anyways.\n
-			Thanks for playing!', 32);
-		text.setFormat(Paths.font('vcr.ttf'), 40, FlxColor.WHITE, FlxTextAlign.CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+			Thanks for playing!', 40);
 		text.screenCenter(XY);
 		add(text);
 	}

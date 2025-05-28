@@ -9,7 +9,7 @@ class PlayState extends FlxState {
 		if (UpdateState.mustUpdate)
 			FlxG.switchState(UpdateState.new);
 
-		var text:FlxText = new FlxText(0, 0, 0, "Hello World\nNow Improved!", 64);
+		var text:FlxText = new FlxText(0, 0, 0, "Hello World!\nNow Improved!", 64);
 		text.screenCenter();
 		add(text);
 	}

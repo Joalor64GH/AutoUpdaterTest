@@ -1,8 +1,6 @@
 package;
 
-import openfl.display.Sprite;
-
-class Main extends Sprite {
+class Main extends openfl.display.Sprite {
 	public final config:Dynamic = {
 		gameDimensions: [1280, 720], // Width + Height of the game in pixels (might be less / more in actual pixels depending on your zoom).
 		framerate: 60, // How many frames per second the game should run at.

@@ -16,8 +16,7 @@ class AutoUpdater {
 		bg.alpha = 0.6;
 		FlxG.state.add(bg);
 
-		var waitTxt:FlxText = new FlxText(0, 0, FlxG.width, "DOWNLOADING UPDATE\nPLEASE WAIT...");
-		waitTxt.setFormat(Paths.font('vcr.ttf'), 40, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		var waitTxt:FlxText = new FlxText(0, 0, FlxG.width, "DOWNLOADING UPDATE\nPLEASE WAIT...", 40);
 		waitTxt.screenCenter();
 		FlxG.state.add(waitTxt);
 
